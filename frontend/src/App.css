@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -19,4 +20,23 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.logo {
+  height: 500px;
+  width: 500px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+.task {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+
+}
+
+.disappear {
+  display: none;
 }

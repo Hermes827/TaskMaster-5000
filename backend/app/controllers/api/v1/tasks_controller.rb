@@ -5,6 +5,14 @@ def index
   render json: @tasks
 end
 
+def show
+  @task = Task.find(params[:id])
+end
 
+def destroy
+   @task = Task.find(params[:id])
+   @task.destroy
+   render json: @task
+ end
 
 end
